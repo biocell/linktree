@@ -1,8 +1,11 @@
 import './App.css';
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Contact from './Contact';
 
 function App() {
   return (
+    <Router>
     <main>
       <img id="profile__img" alt="my profile" src="./img/profile.jpg" />
       <p id="slack">bioc3ll</p>
@@ -53,6 +56,20 @@ function App() {
       >
         <button id="book__design">Design Books</button>
       </a>
+      <a
+        href="/Contact.js"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button id="contact">Contact Me</button>
+      </a>
+
+      <Switch>
+      <Route exact path="/Contact.js">
+      <Contact />
+      </Route>
+      </Switch>
+
       <div id="logo">
         <img
           className="image"
@@ -78,6 +95,7 @@ function App() {
       
 
     </main>
+    </Router>
   );
 }
 

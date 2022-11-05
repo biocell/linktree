@@ -119,6 +119,21 @@ code {
 #book__design:hover {
   background-color: #b5bbb5;
 }
+#contact {
+  width: 90%;
+  height: 100px;
+  font-size: large;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-color: none;
+  border-radius: 15px;
+  border: none;
+}
+#contact:hover {
+  background-color: #b5bbb5;
+}
 #logo {
   width: 10%;
   height: 80px;
