@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Homepage() {
+function Home() {
   return (
     <main>
       <img id="profile__img" alt="my profile" src="./img/profile.jpg" />
@@ -77,4 +77,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Home;
