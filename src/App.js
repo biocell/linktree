@@ -1,5 +1,5 @@
-import Home from './Home'
-import Contact from './contact';
+import Home from './pages/Home'
+import Contact from './pages/contact';
 import Footer from './Footer';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
